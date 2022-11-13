@@ -1,0 +1,6 @@
+projectKey=expositoTOP
+serverUrl=http://localhost:9000/sonarqube
+serverVersion=9.6.1.59531
+dashboardUrl=http://localhost:9000/sonarqube/dashboard?id=expositoTOP
+ceTaskId=AYRhg02jdd9j6I76QOcF
+ceTaskUrl=http://localhost:9000/sonarqube/api/ce/task?id=AYRhg02jdd9j6I76QOcF

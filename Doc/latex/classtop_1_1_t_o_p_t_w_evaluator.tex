@@ -1,0 +1,27 @@
+\doxysection{Referencia de la Clase top.\+TOPTWEvaluator}
+\label{classtop_1_1_t_o_p_t_w_evaluator}\index{top.TOPTWEvaluator@{top.TOPTWEvaluator}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ evaluate} (\textbf{ TOPTWSolution} solution)
+\end{DoxyCompactItemize}
+\doxysubsection*{Atributos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{classtop_1_1_t_o_p_t_w_evaluator_aa87e11d07ed8529d44fb83c50ac71615}} 
+static double {\bfseries NO\+\_\+\+EVALUATED} = -\/1.\+0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\label{classtop_1_1_t_o_p_t_w_evaluator_a6d0c45513c641c55b6e9c878ffd5f476}} 
+\index{top.TOPTWEvaluator@{top.TOPTWEvaluator}!evaluate@{evaluate}}
+\index{evaluate@{evaluate}!top.TOPTWEvaluator@{top.TOPTWEvaluator}}
+\doxysubsubsection{evaluate()}
+{\footnotesize\ttfamily void top.\+TOPTWEvaluator.\+evaluate (\begin{DoxyParamCaption}\item[{\textbf{ TOPTWSolution}}]{solution }\end{DoxyParamCaption})}
+
+Cumulative\+CVRP problem = solution.\+get\+Problem(); double objective\+Function\+Value = 0.\+0; for (int i = 0; i $<$ solution.\+get\+Index\+Depot().size(); i++) \{ double cumulative = 0; int depot = solution.\+get\+An\+Index\+Depot(i); int actual = depot; actual = solution.\+get\+Successor(actual); cumulative += problem.\+get\+Distance\+Matrix(0, actual); objective\+Function\+Value += problem.\+get\+Distance\+Matrix(0, actual); System.\+out.\+println(\char`\"{}\+Desde \char`\"{} + 0 + \char`\"{} a \char`\"{} + actual + \char`\"{} = \char`\"{} + cumulative); while (actual != depot) \{ int ant = actual; actual = solution.\+get\+Successor(actual); if (actual != depot) \{ cumulative += problem.\+get\+Distance\+Matrix(ant, actual); objective\+Function\+Value += cumulative; System.\+out.\+println(\char`\"{}\+Desde \char`\"{} + ant + \char`\"{} a \char`\"{} + actual + \char`\"{} = \char`\"{} + cumulative); \} else \{ cumulative += problem.\+get\+Distance\+Matrix(ant, 0); objective\+Function\+Value += cumulative; System.\+out.\+println(\char`\"{}\+Desde \char`\"{} + ant + \char`\"{} a \char`\"{} + 0 + \char`\"{} = \char`\"{} + cumulative); \} \} System.\+out.\+println(\char`\"{}\char`\"{}); \} solution.\+set\+Objective\+Function\+Value(objective\+Function\+Value);
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+Exposito\+TOP/src/top/TOPTWEvaluator.\+java\end{DoxyCompactItemize}

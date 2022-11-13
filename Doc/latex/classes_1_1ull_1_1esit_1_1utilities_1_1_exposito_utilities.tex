@@ -1,0 +1,518 @@
+\doxysection{Referencia de la Clase es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities}
+\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities}\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+
+
+Distintas utilidades auxiliares a utilizar a lo largo del proyecto.  
+
+
+\doxysubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static void \textbf{ print\+File} (String file)
+\begin{DoxyCompactList}\small\item\em Método para imprimir archivos. \end{DoxyCompactList}\item 
+static String \textbf{ simplify\+String} (String string)
+\begin{DoxyCompactList}\small\item\em Parser para simplificar las cadenas que contienen caracteres no deseados. \end{DoxyCompactList}\item 
+static double[$\,$][$\,$] \textbf{ multiply\+Matrices} (double a[$\,$][$\,$], double b[$\,$][$\,$])
+\begin{DoxyCompactList}\small\item\em Método para multiplicar 2 matrices dobles. \end{DoxyCompactList}\item 
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a71709ecd8a80b777e754e918700f8bb8}} 
+static void {\bfseries write\+Text\+To\+File} (String file, String text)  throws IOException 
+\item 
+static String \textbf{ get\+Format} (String string)
+\begin{DoxyCompactList}\small\item\em Método para obtener el formato de una cadena dada. \end{DoxyCompactList}\item 
+static String \textbf{ get\+Format} (double value)
+\begin{DoxyCompactList}\small\item\em Doble para formateador de cadenas. \end{DoxyCompactList}\item 
+static String \textbf{ get\+Format} (double value, int zeros)
+\begin{DoxyCompactList}\small\item\em Doble para formateador de cadenas. \end{DoxyCompactList}\item 
+static String \textbf{ get\+Format} (String string, int width)
+\begin{DoxyCompactList}\small\item\em Método auxiliar para obtener un formato de cadena. \end{DoxyCompactList}\item 
+static String \textbf{ get\+Format} (String string, int width, int alignment)
+\begin{DoxyCompactList}\small\item\em Método auxiliar para obtener un formato de cadena. \end{DoxyCompactList}\item 
+static String \textbf{ get\+Format} (Array\+List$<$ String $>$ strings, int width)
+\item 
+static String \textbf{ get\+Format} (Array\+List$<$ Integer $>$ strings)
+\item 
+static String \textbf{ get\+Format} (String[$\,$] strings, int width)
+\item 
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a8804995e2e567d18859062fa9d29345b}} 
+static String {\bfseries get\+Format} (String[$\,$][$\,$] matrix\+Strings, int width)
+\item 
+static String \textbf{ get\+Format} (String[$\,$] strings)
+\item 
+static String \textbf{ get\+Format} (String[$\,$] strings, int[$\,$] width)
+\item 
+static String \textbf{ get\+Format} (String[$\,$] strings, int[$\,$] width, int[$\,$] alignment)
+\item 
+static boolean \textbf{ is\+Integer} (String str)
+\begin{DoxyCompactList}\small\item\em Comprobar si un número dado es entero. \end{DoxyCompactList}\item 
+static boolean \textbf{ is\+Double} (String str)
+\begin{DoxyCompactList}\small\item\em Comprobar si un número dado es el doble. \end{DoxyCompactList}\item 
+static boolean \textbf{ is\+Acyclic} (int[$\,$][$\,$] distance\+Matrix)
+\begin{DoxyCompactList}\small\item\em Check es un gráfico es acíclico. \end{DoxyCompactList}\item 
+static boolean \textbf{ there\+Is\+Path} (int[$\,$][$\,$] distance\+Matrix, int node)
+\begin{DoxyCompactList}\small\item\em Comprueba si un nodo determinado es accesible. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atributos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static final int \textbf{ DEFAULT\+\_\+\+COLUMN\+\_\+\+WIDTH} = 10
+\item 
+static final int \textbf{ ALIGNMENT\+\_\+\+LEFT} = 1
+\item 
+static final int \textbf{ ALIGNMENT\+\_\+\+RIGHT} = 2
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Distintas utilidades auxiliares a utilizar a lo largo del proyecto. 
+
+@detalles Esta clase implementa una serie de métodos que se utilizarán en el proyecto. 
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a0ee668a54be16c38afc28664b583fe7a}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [1/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{Array\+List$<$ Integer $>$}]{strings }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parámetros}
+{\em strings} & -\/$>$ cadenas a analizar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+String -\/$>$ cadena formateada 
+\end{DoxyReturn}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_aead770697be0d448bd91cd8427a90216}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [2/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{Array\+List$<$ String $>$}]{strings,  }\item[{int}]{width }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parámetros}
+{\em strings} & -\/$>$ cadenas a analizar \\
+\hline
+{\em ancho} & -\/$>$ ancho de la cadena \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Cadena -\/$>$ formato de cadena 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_aead770697be0d448bd91cd8427a90216_cgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a1668b663acb808d1a3a8d69a9638da90}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [3/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Doble para formateador de cadenas. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em valor} & -\/$>$ valor a formatear \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+String -\/$>$ resultado formateado 
+\end{DoxyReturn}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a9a507e59f1cbe8f859d54d560d273811}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [4/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{double}]{value,  }\item[{int}]{zeros }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Doble para formateador de cadenas. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em valor} & -\/$>$ valor a formatear \\
+\hline
+{\em ceros} & -\/$>$ precisión decimal deseada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+String -\/$>$ resultado formateado 
+\end{DoxyReturn}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a1dc633979b918d55db1eb7308f864d6c}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [5/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{String}]{string }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método para obtener el formato de una cadena dada. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em string} & -\/$>$ cadena a analizar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+String -\/$>$ resultado del análisis 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a1dc633979b918d55db1eb7308f864d6c_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a1dc633979b918d55db1eb7308f864d6c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a4c018a651b6159a3e2561b49455a134b}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [6/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{String}]{string,  }\item[{int}]{width }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método auxiliar para obtener un formato de cadena. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em string} & -\/$>$ cadena a analizar \\
+\hline
+{\em ancho} & -\/$>$ ancho de la cadena \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Cadena -\/$>$ formato de cadena 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a4c018a651b6159a3e2561b49455a134b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a30a8e32b37c35c82d73f4b062f4a05db}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [7/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{String}]{string,  }\item[{int}]{width,  }\item[{int}]{alignment }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método auxiliar para obtener un formato de cadena. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em string} & -\/$>$ cadena a analizar \\
+\hline
+{\em ancho} & -\/$>$ ancho de la cadena \\
+\hline
+{\em alineación} & -\/$>$ alineación de cadenas \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Cadena -\/$>$ formato de cadena 
+\end{DoxyReturn}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_af00a27e34df90c5cc645e1a669063b5c}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [8/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{String[$\,$]}]{strings }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parámetros}
+{\em strings} & -\/$>$ Cadena de cadenas a analizar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Cadena -\/$>$ formato de cadena 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_af00a27e34df90c5cc645e1a669063b5c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a1d9fa26973acad259f8b3b605aa8713c}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [9/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{String[$\,$]}]{strings,  }\item[{int}]{width }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parámetros}
+{\em strings} & -\/$>$ cadenas a analizar \\
+\hline
+{\em ancho} & -\/$>$ ancho de cadena \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Cadena -\/$>$ formato de cadena 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a1d9fa26973acad259f8b3b605aa8713c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_ac0e30df31555f720f6f3cc93d8d2c066}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [10/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{String[$\,$]}]{strings,  }\item[{int[$\,$]}]{width }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parámetros}
+{\em strings} & -\/$>$ Cadena de cadenas a analizar \\
+\hline
+{\em ancho} & -\/$>$ ancho de cadena \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Cadena -\/$>$ formato de cadena 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_ac0e30df31555f720f6f3cc93d8d2c066_cgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a08684483087c8a7fcb91e158588391dc}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{getFormat()\hspace{0.1cm}{\footnotesize\ttfamily [11/11]}}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+get\+Format (\begin{DoxyParamCaption}\item[{String[$\,$]}]{strings,  }\item[{int[$\,$]}]{width,  }\item[{int[$\,$]}]{alignment }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parámetros}
+{\em strings} & -\/$>$ Cadena de cadenas a analizar \\
+\hline
+{\em ancho} & -\/$>$ ancho de cadena \\
+\hline
+{\em alineación} & -\/$>$ alineación de cadenas \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+String -\/$>$ formato de cadena 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a08684483087c8a7fcb91e158588391dc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a5048eaa059161a2cfa8e5c6bc9c04cfb}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!isAcyclic@{isAcyclic}}
+\index{isAcyclic@{isAcyclic}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{isAcyclic()}
+{\footnotesize\ttfamily static boolean es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+is\+Acyclic (\begin{DoxyParamCaption}\item[{int}]{distance\+Matrix[$\,$][$\,$] }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Check es un gráfico es acíclico. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em distance\+Matrix} & -\/$>$ Matriz de distancias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+booleano -\/$>$ Verdadero o falso 
+\end{DoxyReturn}
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a5048eaa059161a2cfa8e5c6bc9c04cfb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_aea4db414c92e2fc046f76ef43fcf1214}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!isDouble@{isDouble}}
+\index{isDouble@{isDouble}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{isDouble()}
+{\footnotesize\ttfamily static boolean es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+is\+Double (\begin{DoxyParamCaption}\item[{String}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Comprobar si un número dado es el doble. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & -\/$>$ cadena que contiene el número \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+booleano -\/$>$ Verdadero o falso 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_aea4db414c92e2fc046f76ef43fcf1214_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a3aa6195e3bb8c5393a84ab3ff7b3f18a}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!isInteger@{isInteger}}
+\index{isInteger@{isInteger}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{isInteger()}
+{\footnotesize\ttfamily static boolean es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+is\+Integer (\begin{DoxyParamCaption}\item[{String}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Comprobar si un número dado es entero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & -\/$>$ cadena que contiene el número \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+booleano -\/$>$ Verdadero o falso 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a3aa6195e3bb8c5393a84ab3ff7b3f18a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_ac6fad0c76457c120161c3a92cf85763e}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!multiplyMatrices@{multiplyMatrices}}
+\index{multiplyMatrices@{multiplyMatrices}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{multiplyMatrices()}
+{\footnotesize\ttfamily static double[$\,$][$\,$] es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+multiply\+Matrices (\begin{DoxyParamCaption}\item[{double}]{a[$\,$][$\,$],  }\item[{double}]{b[$\,$][$\,$] }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método para multiplicar 2 matrices dobles. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em a} & -\/$>$ Matriz izquierda \\
+\hline
+{\em b} & -\/$>$ Matriz derecha \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+double[][] -\/$>$ Resultado del producto Matriz 
+\end{DoxyReturn}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a76e13d48f3056064b761feaa50a37656}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!printFile@{printFile}}
+\index{printFile@{printFile}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{printFile()}
+{\footnotesize\ttfamily static void es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+print\+File (\begin{DoxyParamCaption}\item[{String}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método para imprimir archivos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em archivo} & -\/$>$ nombre de archivo \\
+\hline
+\end{DoxyParams}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a7ae7bdc68d2eac0de896cbe56878fd64}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!simplifyString@{simplifyString}}
+\index{simplifyString@{simplifyString}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{simplifyString()}
+{\footnotesize\ttfamily static String es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+simplify\+String (\begin{DoxyParamCaption}\item[{String}]{string }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Parser para simplificar las cadenas que contienen caracteres no deseados. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em string} & -\/$>$ Cadena a simplificar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+String -\/$>$ cadena simplificada 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a7ae7bdc68d2eac0de896cbe56878fd64_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a219fe3e64266d6eeb8bd2137e8c81c3b}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!thereIsPath@{thereIsPath}}
+\index{thereIsPath@{thereIsPath}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{thereIsPath()}
+{\footnotesize\ttfamily static boolean es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+there\+Is\+Path (\begin{DoxyParamCaption}\item[{int}]{distance\+Matrix[$\,$][$\,$],  }\item[{int}]{node }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Comprueba si un nodo determinado es accesible. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em distance\+Matrix} & -\/$>$ Matriz de distancias \\
+\hline
+{\em nodo} & -\/$>$ nodo objetivo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+booleano -\/$>$ Verdadero o falso 
+\end{DoxyReturn}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a219fe3e64266d6eeb8bd2137e8c81c3b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Documentación de los datos miembro}
+\mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_aec9f22bde414b43d04607fed896125c3}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!ALIGNMENT\_LEFT@{ALIGNMENT\_LEFT}}
+\index{ALIGNMENT\_LEFT@{ALIGNMENT\_LEFT}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{ALIGNMENT\_LEFT}
+{\footnotesize\ttfamily final int es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+ALIGNMENT\+\_\+\+LEFT = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+Constante para definir alineación izquierda \mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_a09bfe058e6e119adf0997c166073db69}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!ALIGNMENT\_RIGHT@{ALIGNMENT\_RIGHT}}
+\index{ALIGNMENT\_RIGHT@{ALIGNMENT\_RIGHT}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{ALIGNMENT\_RIGHT}
+{\footnotesize\ttfamily final int es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+ALIGNMENT\+\_\+\+RIGHT = 2\hspace{0.3cm}{\ttfamily [static]}}
+
+Constante para definir alineación derecha \mbox{\label{classes_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_ab16e491dc8ee2075b993ebb2e638129d}} 
+\index{es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}!DEFAULT\_COLUMN\_WIDTH@{DEFAULT\_COLUMN\_WIDTH}}
+\index{DEFAULT\_COLUMN\_WIDTH@{DEFAULT\_COLUMN\_WIDTH}!es.ull.esit.utilities.ExpositoUtilities@{es.ull.esit.utilities.ExpositoUtilities}}
+\doxysubsubsection{DEFAULT\_COLUMN\_WIDTH}
+{\footnotesize\ttfamily final int es.\+ull.\+esit.\+utilities.\+Exposito\+Utilities.\+DEFAULT\+\_\+\+COLUMN\+\_\+\+WIDTH = 10\hspace{0.3cm}{\ttfamily [static]}}
+
+Constante para definir ancho de columna 
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+Exposito\+TOP/src/es/ull/esit/utilities/Exposito\+Utilities.\+java\end{DoxyCompactItemize}

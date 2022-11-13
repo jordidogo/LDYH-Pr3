@@ -1,0 +1,1 @@
+sonar-scanner.bat -D"sonar.projectKey=expositoTOP" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000/sonarqube" -D"sonar.login=sqp_d2d989f33df48fac6bb1de2a3bfc9db85d1a1d00"
